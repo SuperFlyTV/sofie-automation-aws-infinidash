@@ -3,10 +3,10 @@ Library to enable the Sofie TV Automation system to have full vertical integrati
 
 This library is currently experimental. It currently contains (WIP):
 
-* blog about what has been discovered so far
-* terminology related to the DashCore
-* simple prototype application that has been used to use InfiniDash hypervisor for self-governed Docker clusters
-* draft typescript interface
+* Blog about what has been discovered so far
+* Terminology related to the DashCore
+* Simple prototype application that has been used to use InfiniDash hypervisor for self-governed Docker clusters
+* Draft typescript interface
 
 ## Abstract
 
@@ -14,6 +14,8 @@ This library is currently experimental. It currently contains (WIP):
 In the hunt for the singlest source of truth, do we sacrifice scalability? What is the tradeoff of monotruth if it won't scale to meet real-world demands – and why do we have to choose in the first place?
 
 We believe that the premise needs to be flipped. Instead of focusing on a single point of truth, let's start embracing multiple points of single truths. The difference is subtle but crucial. In a traditional monotruth paradigm you can only scale within the set keeping your state. Enabled by InfiniDash's messaging component and reactiveness, we can now grow flops (aka. "Flop-farming") of truth in a well-stated manner. Plugging into InfiniDash ReactiStash, we can stack these vertically, for theoretically near-limitless growth.
+
+**Note:** Further investigation is needed before concluding on cost/benefit of scaling all state-handling in AWS. Pending ongoing tests done through the OpenDash initiative to conclude if there's viable open source alternatives coming in near future.
 
 ## Configurations
 
