@@ -1,4 +1,4 @@
-# Sofie automation AWS Infinidash
+# Sofie automation AWS InfiniDash
 Library to enable the Sofie TV Automation system to have full vertical integration with the AWS InfiniDash ecosystem. Bridging the gap between InfiniDash orchestration and more traditional proven Node.js deployments.
 
 This library is currently experimental. It currently contains (WIP):
