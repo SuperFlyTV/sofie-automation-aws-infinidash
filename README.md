@@ -8,6 +8,8 @@ This library is currently experimental. It currently contains (WIP):
 * Simple prototype application that has been used to use InfiniDash hypervisor for self-governed Docker clusters
 * Draft typescript interface
 
+[New to InfiniDash? This introduction tweet from Joe Nash is the best place to get started](https://twitter.com/jna_sh/status/1410178986978775040)
+
 ## Abstract
 
 ## Concept: Infinite single sources of truth
